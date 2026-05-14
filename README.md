@@ -1,9 +1,26 @@
-# MJ典 - Mandarin Japanese Dictionary
+# MJ Dictionary - Mandarin Japanese Dictionary
 
-[MJ典](https://code4fukui.github.io/MJdic/)
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-## reference
+A dictionary application that translates between Mandarin Chinese and Japanese.
 
-- inspierd from: <a href=https://www.moedict.tw/>萌展</a>
-- forked from: <a href=https://github.com/code4fukui/CEdic>CE典</a>
-- data: CC BY-SA <a href="https://cc-cedict.org/editor/editor.php?handler=Main">CC-CEDICT Editor</a>
+## Demo
+[MJ Dictionary](https://code4fukui.github.io/MJdic/)
+
+## Features
+- Lookup words by entering Mandarin Chinese or Japanese text
+- Displays Pinyin pronunciation and Japanese translations
+- Provides a chewable (Q弹) interface with clickable Kanji
+- Text-to-speech support for Mandarin Chinese words
+
+## Requirements
+None, this is a web-based application.
+
+## Usage
+Access the website and start typing to look up words.
+
+## Data / API
+The dictionary data is from the [CC-CEDICT](https://cc-cedict.org/editor/editor.php?handler=Main) project, licensed under CC BY-SA. Japanese translations were added using the [DeepLAPI](https://github.com/code4fukui/DeepLAPI) library.
+
+## License
+MIT License — see [LICENSE](LICENSE).
